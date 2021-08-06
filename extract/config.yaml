@@ -1,0 +1,25 @@
+news_sites:
+  time:
+    url: https://time.com/
+    queries:
+      homepage_article_links: 'h2.title a'
+      article_body: 'div.padded p'
+      article_title: 'h1.headline'
+  nytimes:
+    url: https://www.nytimes.com/
+    queries:
+      homepage_article_links: 'a.css-t059uy'
+      article_body: 'p.css-axufdj'
+      article_title: 'h1.css-f1llows'
+  padaily:
+    url: https://padailypost.com/
+    queries:
+      homepage_article_links: 'h3.mh-custom-posts-xl-title a'
+      article_body: 'div.entry-content p'
+      article_title: 'h1.entry-title'
+  TWP:
+    url: https://www.washingtonpost.com/
+    queries:
+      homepage_article_links: 'h2.font--headline a'
+      article_body: 'p.font--article-body'
+      article_title: 'h1.font--headline > span'
